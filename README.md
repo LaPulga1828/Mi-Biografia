@@ -4,7 +4,7 @@ Este es mi primer sitio web. se trata de mi autobiografía y algunos otros aspec
 
 ## Seccines (paginas) del sitio web
 
-- index.html: pagina principa del sitio. es una portada de su autobiografia contiene los links a lasdemas secciones del sitio
+- index.html: pagina principa del sitio. es una portada de su autobiografia contiene los links a las demas secciones del sitio
 
 -Lugar y fecha de nacimiento
 
