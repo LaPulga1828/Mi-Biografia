@@ -5,24 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Biografia</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <header>
-        <h1><p align="center">Mi Biografia</p></h1>
-        <table border="7" align="center">
-            <thead>
-                <tr>
-                    <th><a href="Lugar_y_fecha _de_nacimiento.html"><h2 align="center"> Lugar y fecga de nacimiento </h2></a></th>
-                    <th><a href="Familia.html"><h2 align="center">  Familia  </h2></a></th>
-                    <th><a href="Educacion.html"><h2 align="center">  Educacion  </h2></a></th>
-                    <th><a href="Amigos.html"><h2 align="center">  Amigos  </h2></a></th>
-                    <th><a href="Su_jornada_(horario_personal).html"><h2 align="center"> Horario Personal </h2></a></th>
-                    <th><a href="Plan_personal_formacion _SABER_11.html"><h2 align="center"> Formacion ICFES </h2></a></th>
-                    <th><a href="Proyecto_de_vida_2029.html"><h2 align="center"> Proyecto de vida 2029 </h2></a></th>
-                </tr>
-            </thead>
-        </table>        
+    <header class="header">
+        <!--<h1><p align="center">Mi Biografia</p></h1>
+        <div class="desplegable">
+            <button class="boton">Menu</button>
+            <div class="links">
+                <a href="index.html">Mi Biografia</a>
+                <a href="Familia.html">Familia</a>
+                <a href="Educacion.html">Educacion</a>
+                <a href="Amigos.html">Amigos</a>
+                <a href="Su_jornada_(horario_personal).html">Horario Personal</a>
+                <a href="Plan_personal_formacion _SABER_11.html">Formacion ICFES</a>
+                <a href="Proyecto_de_vida_2029.html">Proyecto de vida 2029</a>
+            </div>
+        </div>-->
+        <div class="logo">Mi Biografia</div>
+        
+        <input type="checkbox" id="toggle">
+        <label for="toggle"><img src="img/lista (1).png" alt=""menu width="20" height="20"></label>
+
+        <nav class="navegation">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Quien Soy</a>
+                    <ul>
+                        <li><a href="Familia.html">Familia</a></li>
+                        <li><a href="Educacion.html">Educacion</a></li>
+                        <li><a href="Amigos.html">Amigos</a></li>
+                        <li><a href="Su_jornada_(horario_personal).html">Horario Personal</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Quiero ser</a>
+                    <ul>
+                        <li><a href="Plan_personal_formacion _SABER_11.html">Formacion ICFES</a></li>
+                        <li><a href="Proyecto_de_vida_2029.html">Proyecto de vida 2029</a></li>
+                    </ul>
+                </li>
+                    
+            </ul>
+        </nav>
     </header>
+    <div class="hero"></div>
     <br>
     <hr>
     <main>
@@ -32,14 +58,16 @@
             </article>
             <article>
                 <figure>
-                    <img src="img/qwerty.jpg" width="500" height="500" alt="Yo">
-                    fi
+                    <div align="center">
+                        <a href="Familia.html"><img src="img/qwerty.jpg" width="900" height="800" alt="Yo" /></a>
+                    </div>
+                    
                 </figure>
             </article>     
         </section>
     </main>
     <footer>
-
+        <a href="https://www.flaticon.es/iconos-gratis/menu-abierto" title="menú abierto iconos">Menú abierto iconos creados por Freepik - Flaticon</a>
     </footer>
 </body>
 </html>
