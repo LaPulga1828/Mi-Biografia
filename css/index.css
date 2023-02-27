@@ -69,6 +69,7 @@ nav{
 
 .menu-vertical li a{
     font-family: 'Playfair Display', serif;
+    font-size: 2rem;
 	display: block;
 	color: white;
 	text-decoration: none;
